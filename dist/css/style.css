@@ -108,16 +108,46 @@ body {
 
 /* Footer */
 .footer {
-  background-color: #363636;
   color: #fff;
-  padding: 20px 0;
   margin-top: auto;
-  width: 100%;
+  position: relative;
+}
+
+.footer p{
+  font-size: 16px;
+  font-style: normal;
+  line-height: 10px;
+}
+
+.footer h3{
+  font-size: 22px;
+}
+
+.footer-image{
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  z-index: 10;
+  width: auto;
+  height: 280px;
 }
 
 .footer-container {
-  padding: 0 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: end;
+  gap: 40px;
+  padding: 40px 0 40px 60px;
+  align-items: center;
+  background-color:#363636;
+  padding-left: 800px;
+  z-index: 1;
 }
+
+.info-section{
+  align-self: start;
+}
+
 
 /* Colours page */
 .nav-links li a.colours-active {
