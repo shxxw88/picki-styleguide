@@ -76,7 +76,7 @@ body {
 }
 
 .big-logo {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   max-width: 100%;
 }
 
@@ -84,12 +84,12 @@ body {
   font-size: 40px;
   font-weight: 700;
   color: #FFD147;
-  margin: 20px 0;
+  margin: 20px 0 10px 0;
 }
 
 .picki-description {
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .picki-bold {
