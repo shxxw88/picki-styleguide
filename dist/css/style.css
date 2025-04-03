@@ -1,10 +1,17 @@
 /* Homepage */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #fffaf1;
   color: #2c2c2c;
   font-family: "Inter", sans-serif;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Navbar */
@@ -15,7 +22,6 @@ body {
   padding: 20px 60px;
   border-bottom: 1px solid #d1d1d1;
 }
-
 
 /* Navigation Links */
 .nav-links {
@@ -53,60 +59,85 @@ body {
   color: #FF82BC;
 }
 
+/* Updated Homepage */
 .Homepage {
+  flex: 1;
   display: flex;
-  align-items: center;
-  gap: 50px;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px;
 }
+
+/* Left side content */
+.left-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+}
+
 .big-logo {
-position: absolute; /* Absolute position to adjust the location */
-top: 35%;
-left: 5%; /* Center horizontally */
+  margin-bottom: 20px;
+  max-width: 100%;
 }
-.buddies {
-  position: absolute; /* Absolute position to adjust the location */
-  top: 20%;
-  right: 5%; /* Center horizontally */
-}
+
 .styleguide-text {
-  position: absolute;
-  top: 47%;
-  left: 5%;
   font-size: 40px;
   font-weight: 700;
   color: #FFD147;
+  margin: 20px 0;
 }
+
 .picki-description {
-  position: absolute;
-  top: 57%;
-  left: 5%;
-  right: 70%;
   font-size: 20px;
+  margin-top: 20px;
 }
+
 .picki-bold {
   font-weight: 700;
 }
+
+/* Right side content */
+.right-content {
+  max-width: 50%;
+}
+
+.buddies {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+.footer {
+  background-color: #363636;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: auto;
+  width: 100%;
+}
+
+.footer-container {
+  padding: 0 60px;
+}
+
 /* Colours page */
-.nav-links li a.colours-active  {
+.nav-links li a.colours-active {
   color: #3E9E18;
 }
+
 .why-colours {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 100px;
 }
+
 .why-colours-description {
   text-align: center;
- position: absolute;
- left: 20%;
- right:20%;
+  margin: 0 20%;
 }
+
 .colour-palette {
   text-align: center;
-  position: absolute;
-  left: 40%;
-  right: 40%;
-  top: 40%;
+  margin: 20% 40% 0;
 }
 
 .colour-blocks {
