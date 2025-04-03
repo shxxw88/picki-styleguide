@@ -110,14 +110,45 @@ body {
 .footer {
   background-color: #363636;
   color: #fff;
-  padding: 20px 0;
   margin-top: auto;
   width: 100%;
 }
 
-.footer-container {
-  padding: 0 60px;
+.footer p{
+  font-size: 16px;
+  font-style: normal;
+  line-height: 10px;
+
 }
+
+.footer-container {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr;
+  grid-template-areas:
+    "mascot team program copyright";
+  gap: 40px;
+  padding: 20px 60px;
+  align-items: center;
+}
+
+.footer-image {
+  grid-area: "mascot";
+  margin-right: 300px;
+}
+
+.team-section{
+  grid-area: "team";
+}
+
+.program-section{
+  grid-area: "program";
+}
+
+.copyright-section{
+  grid-area: "copyright";
+  justify-self: end;
+}
+
 
 /* Colours page */
 .nav-links li a.colours-active {
