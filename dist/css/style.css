@@ -108,45 +108,44 @@ body {
 
 /* Footer */
 .footer {
-  background-color: #363636;
   color: #fff;
   margin-top: auto;
-  width: 100%;
+  position: relative;
 }
 
 .footer p{
   font-size: 16px;
   font-style: normal;
   line-height: 10px;
+}
 
+.footer h3{
+  font-size: 22px;
+}
+
+.footer-image{
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  z-index: 10;
+  width: auto;
+  height: 280px;
 }
 
 .footer-container {
   display: grid;
-  grid-template-columns: auto 1fr 1fr 1fr;
-  grid-template-areas:
-    "mascot team program copyright";
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: end;
   gap: 40px;
-  padding: 20px 60px;
+  padding: 40px 0 40px 60px;
   align-items: center;
+  background-color:#363636;
+  padding-left: 800px;
+  z-index: 1;
 }
 
-.footer-image {
-  grid-area: "mascot";
-  margin-right: 300px;
-}
-
-.team-section{
-  grid-area: "team";
-}
-
-.program-section{
-  grid-area: "program";
-}
-
-.copyright-section{
-  grid-area: "copyright";
-  justify-self: end;
+.info-section{
+  align-self: start;
 }
 
 
