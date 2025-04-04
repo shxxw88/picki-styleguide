@@ -3,8 +3,6 @@ body {
     background-color: #fffaf1;
     color: #2c2c2c;
     font-family: "Inter", sans-serif;
-    margin: 0;
-    padding: 0;
   }
   
   /* Navbar */
@@ -53,12 +51,44 @@ body {
     color: #FF82BC;
   }
     
-  .nav-links li a.colours-green {
-      color: green; /* Change the color to green when active */
+  .nav-links li a.colours-purple {
+      color: #391E99; /* Change the color to purple when active */
     }
   
+/* Graphics Content*/
 
-  
+.graphics {
+    text-align: center;
+    margin: 100px;
+}
+.graphics-description, .mascots-description, .icons-description, .buttons-description, .cards-description {
+    padding: 20px 200px 60px 200px;
+}
+
+.mascots-image{
+    width: auto;
+    height: 450px;
+    margin-bottom: 80px;
+}
+
+.icons-image{
+    width: auto;
+    height: 250px;
+    margin-bottom: 80px;
+}
+
+.buttons-image{
+  width: auto;
+  height: 230px;
+  margin-bottom: 80px;
+}
+
+.cards-image{
+    width: auto;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
     /* Footer */
   .footer {
     color: #fff;
