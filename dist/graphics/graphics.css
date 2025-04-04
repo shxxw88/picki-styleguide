@@ -1,0 +1,132 @@
+/* Homepage */
+body {
+    background-color: #fffaf1;
+    color: #2c2c2c;
+    font-family: "Inter", sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 1px solid #d1d1d1;
+  }
+  
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 72px;
+  }
+  
+  .nav-links li {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #2c2c2c;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  .Logo a:hover {
+    color: #FF82BC;
+  }
+  .Colours a:hover {
+    color: #268700;
+  }
+  .Typography a:hover {
+    color: #FFD147;
+  }
+  .Graphics a:hover {
+    color: #391E99;
+  }
+  .References a:hover {
+    color: #FF82BC;
+  }
+    
+  .nav-links li a.colours-purple {
+      color: #391E99; /* Change the color to purple when active */
+    }
+  
+/* Graphics Content*/
+
+.graphics {
+    text-align: center;
+    margin: 100px;
+}
+.graphics-description, .mascots-description, .icons-description, .buttons-description, .cards-description {
+    padding: 20px 200px 60px 200px;
+}
+
+.mascots-image{
+    width: auto;
+    height: 450px;
+    margin-bottom: 80px;
+}
+
+.icons-image{
+    width: auto;
+    height: 250px;
+    margin-bottom: 80px;
+}
+
+.buttons-image{
+  width: auto;
+  height: 230px;
+  margin-bottom: 80px;
+}
+
+.cards-image{
+    width: auto;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+    /* Footer */
+  .footer {
+    color: #fff;
+    margin-top: auto;
+    position: relative;
+  }
+  
+  .footer p{
+    font-size: 16px;
+    font-style: normal;
+    line-height: 10px;
+  }
+  
+  .footer h3{
+    font-size: 22px;
+  }
+  
+  .footer-image{
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    z-index: 10;
+    width: auto;
+    height: 280px;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
+    gap: 40px;
+    padding: 40px 0 40px 60px;
+    align-items: center;
+    background-color:#278700;
+    padding-left: 800px;
+    z-index: 1;
+  }
+  
+  .info-section{
+    align-self: start;
+  }
