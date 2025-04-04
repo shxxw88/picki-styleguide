@@ -1,0 +1,144 @@
+/* Homepage */
+body {
+    background-color: #fffaf1;
+    color: #2c2c2c;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 72px;
+}
+
+.nav-links li {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.Logo a:hover {
+    color: #FF82BC;
+}
+
+.Colours a:hover {
+    color: #268700;
+}
+
+.Typography a:hover {
+    color: #FFD147;
+}
+
+.Graphics a:hover {
+    color: #391E99;
+}
+
+.References a:hover {
+    color: #FF82BC;
+}
+
+.nav-links li a.references-pink {
+    color: #FF82BC;
+    /* Change the color to pink when active */
+}
+
+
+/* References Section */
+
+.references {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.references h1 {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.reference-list {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.ref_name {
+    font-weight: bold;
+}
+
+.ref_links {
+    color: #FF82BC;
+    font-weight: 500;
+}
+
+.reference-list ul {
+    list-style-type: none;
+}
+
+/* Footer */
+.footer {
+    color: #fff;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer p {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 10px;
+}
+
+.footer h3 {
+    font-size: 22px;
+}
+
+.footer-image {
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    z-index: 10;
+    width: auto;
+    height: 280px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
+    gap: 40px;
+    padding: 40px 0 40px 60px;
+    align-items: center;
+    background-color: #FF82BC;
+    padding-left: 800px;
+    z-index: 1;
+}
+
+.info-section {
+    align-self: start;
+}
