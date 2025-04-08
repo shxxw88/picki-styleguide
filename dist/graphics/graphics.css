@@ -61,6 +61,63 @@ body {
   /* Change the color to purple when active */
 }
 
+
+    background-color: #fffaf1;
+    color: #2c2c2c;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 1px solid #d1d1d1;
+  }
+  
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 72px;
+  }
+  
+  .nav-links li {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #2c2c2c;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  .Logo a:hover {
+    color: #FF82BC;
+  }
+  .Colours a:hover {
+    color: #268700;
+  }
+  .Typography a:hover {
+    color: #FFD147;
+  }
+  .Graphics a:hover {
+    color: #391E99;
+  }
+  .References a:hover {
+    color: #FF82BC;
+  }
+    
+  .nav-links li a.colours-purple {
+      color: #391E99; /* Change the color to purple when active */
+    }
+  
 /* Graphics Content*/
 
 .graphics {
